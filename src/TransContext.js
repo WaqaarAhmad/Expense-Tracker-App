@@ -6,6 +6,7 @@ const initialTransactions = [
     { amount: -50, desc: "Cold Drink" },
     { amount: 100, desc: "Deposit" },
     { amount: -200, desc: "Utility Bill" },
+    { amount: -300, desc: "Grocery" },
 
 ]
 
