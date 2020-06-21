@@ -32,4 +32,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ Waqar-Expensetrackerapp.surge.sh  --token ${{secrets.SURGE_TOKEN_SECRET}}
+      run: surge ./build Waqar-Expensetrackerapp.surge.sh  --token ${{secrets.SURGE_TOKEN_SECRET}}
