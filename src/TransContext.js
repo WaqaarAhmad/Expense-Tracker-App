@@ -2,8 +2,7 @@ import React, { createContext, useReducer } from "react";
 import TransactionReducer from './transReduser';
 
 const initialTransactions = [
-    { amount: 500, desc: "Cash" },
-    { amount: -50, desc: "Cold Drink" },
+ 
     { amount: 100, desc: "Deposit" },
     { amount: -200, desc: "Utility Bill" },
     { amount: -300, desc: "Grocery" },

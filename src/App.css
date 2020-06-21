@@ -1,6 +1,6 @@
 .container{
   max-width: 400px;
-  min-height: 450px;
+  max-height: 850px;
   margin: 0 auto;
   background-color: #efefef;
   box-shadow: 0 0 10px gray;
@@ -10,6 +10,8 @@
 
 .text-center {
   text-align: center;
+  
+  
 }
 
 .expense-container {
@@ -17,6 +19,24 @@
   justify-content: space-around;
   background-color: white;
   box-shadow: 0 0 10px gray;
+}
+.auther{
+  margin-top: 0px;
+  text-align: right;
+   font-style: italic;
+}
+.balance{
+  font-weight: 700;
+  font-size: larger;
+  
+}
+.Expense{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+}
+.Income{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkgreen;
 }
 
 .trnsaction-list {
